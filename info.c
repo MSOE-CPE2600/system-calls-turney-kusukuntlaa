@@ -1,6 +1,10 @@
-// * Anish Kusukuntla, etc
-
+// * Anish Kusukuntla
+// * Description: Prints out the current time of the day in local time, 
+// * systems network name, operating system name, release system name, version name,
+// * hardware type, number of CPUs, and bytes in the physical and free memory.
 // * info.c
+// * Date: 11/15/2024
+
 #include <stdio.h>
 #include <unistd.h>
 #include <time.h>

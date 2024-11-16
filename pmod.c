@@ -1,6 +1,9 @@
-// * Anish Kusukuntla, etc
-
+// * Anish Kusukuntla
+// * Description: Uses the nice command to reduce the priority by 10 and then 
+// * sleep for 1837272638 nanoseconds. Prints goodbye after the sleep time.
 // * pmod.c
+// * Date: 11/15/2024
+
 #include <stdio.h>
 #include <unistd.h>
 #include <time.h>

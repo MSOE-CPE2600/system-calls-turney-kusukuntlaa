@@ -1,6 +1,9 @@
-// * Anish Kusukuntla, etc
-
+// * Anish Kusukuntla
+// * Description: Takes the command line and displays the file's (if valid)
+// * information such as what file it is under, permissions, owner identification,
+// * and when it was last modified.
 // * finfo.c
+// * Date: 11/15/2024
 
 #include <stdio.h>
 #include <unistd.h>
@@ -47,6 +50,7 @@ int main(int argc, char* argv[])
     
     printf("Permissions: ");
     //Prints out the permission set for the file
+    //Found that this is another way to use an if statement for using the ?
     printf((S_ISDIR(s.st_mode)) ? "d" : "-");
     printf((s.st_mode & S_IRUSR) ? "r" : "-");
     printf((s.st_mode & S_IWUSR) ? "w" : "-");

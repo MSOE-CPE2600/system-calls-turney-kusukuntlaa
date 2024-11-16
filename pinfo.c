@@ -1,6 +1,8 @@
-// * Anish Kusukuntla, etc
-
+// * Anish Kusukuntla
+// * Description: Takes the command line and prints out the process priority and
+// * scheduling method.
 // * pinfo.c
+// * Date: 11/15/2024
 
 #include <stdio.h>
 #include <unistd.h>
